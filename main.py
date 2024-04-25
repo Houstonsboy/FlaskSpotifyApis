@@ -76,7 +76,7 @@ def AddQueue():
         'Content-Type': 'application/json'
     }
     data={
-        'uri': "spotify:track:469pIfZRsMlVamAxYhpm8k"
+        'uri': "spotify:track:04WxWo7XeVyx22xEsrWRUb"
     }
     
     response=requests.post(url, headers=headers, params=data)
